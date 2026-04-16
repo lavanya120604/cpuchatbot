@@ -90,14 +90,13 @@ Student login integration
 Admission form automation
 Database integration
 Analytics dashboard
-👨‍💻 Author
+👨‍💻 Lavanya Sharma
 
-Your Name
+Lavanya Sharma
 
 Role: Developer
 Project: Career Point University Chatbot
 Institution: Career Point University
 📜 License
 
-This project is licensed under the MIT License.
 This project is licensed under the MIT License.
