@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
 import { BottomNav } from "@/components/BottomNav";
-import { MapPin, Phone, Mail, Clock, Globe, Instagram, Linkedin, Facebook } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Globe } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -27,20 +27,20 @@ const contacts = [
 
 const socialLinks = [
   {
-    icon: Instagram,
     label: "Instagram",
+    emoji: "📸",
     href: "https://www.instagram.com/cp.university",
     color: "bg-gradient-to-br from-pink-500 to-orange-400",
   },
   {
-    icon: Linkedin,
     label: "LinkedIn",
+    emoji: "💼",
     href: "https://share.google/XbfMvdalU2s1ykPqn",
-    color: "bg-blue-600",
+    color: "bg-cpu-blue",
   },
   {
-    icon: Facebook,
     label: "Facebook",
+    emoji: "👍",
     href: "https://www.facebook.com/@cpurajasthan",
     color: "bg-blue-500",
   },
