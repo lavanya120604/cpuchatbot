@@ -97,16 +97,16 @@ function ContactPage() {
         <div className="rounded-2xl bg-card border border-border p-5 shadow-sm">
           <h3 className="text-base font-semibold mb-3">Follow Us</h3>
           <div className="flex gap-3">
-            {socialLinks.map(({ icon: Icon, label, href, color }) => (
+            {socialLinks.map(({ emoji, label, href, color }) => (
               <a
                 key={label}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex items-center justify-center h-10 w-10 rounded-full ${color} text-white transition-transform hover:scale-110`}
+                className={`flex items-center justify-center h-10 w-10 rounded-full ${color} text-white transition-transform hover:scale-110 text-lg`}
                 aria-label={label}
               >
-                <Icon className="h-5 w-5" />
+                {emoji}
               </a>
             ))}
           </div>
